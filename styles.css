@@ -1,0 +1,237 @@
+/* styles.css */
+
+/* Resetting default margin and padding for the body and ul */
+body, ul {
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Setting the background color of the body to black */
+  body {
+    background-color: rgb(0, 0, 0);
+    display: flex;
+    flex-direction: column;
+  /* Add space on the left and right of all boxes */
+  }
+  
+
+  /* Styling each box with different background colors */
+ 
+  .box1 {
+    background-color:#1f2937;
+    width: 70%; /* Adjust the width as needed */
+    margin: 0 auto; /* Center the box horizontally */
+    height: 500px;
+    color: azure;
+  }
+
+
+  .box2 {
+    background-color:azure;
+    width: 70%; /* Adjust the width as needed */
+    margin: 0 auto; /* Center the box horizontally */
+    height: 450px;
+  }
+  
+
+
+
+  .box3 {
+    background-color:lightgrey;
+    width: 70%; /* Adjust the width as needed */
+    margin: 0 auto; /* Center the box horizontally */
+    height: 350px;
+  }
+
+  .header {
+    background:#1f2937;
+
+    box-shadow: 0 0 8px rgba(0,0,0,.1);
+    display: flex;
+    justify-content: space-around;
+    padding: 10px;
+  }
+
+  ul.beg{
+    /* this removes the dots on the list items*/
+    list-style-type: none;
+  display: flex;
+
+    margin: 0;
+    padding: 0;
+    gap: 10px;
+    
+  
+  
+    
+  }
+
+  .inner-box{
+
+    display: flex;
+    justify-content: space-evenly;
+    
+    padding: 10px;
+    margin: 60px 50px;
+
+
+  }
+
+
+
+  .in-box1 {
+
+    padding: 50px; 
+    }
+
+    .in-box2{
+        display: flex;
+        justify-content: center;
+
+        padding: 10px;
+
+}
+.kohli{
+    width: 480px;
+    
+    height: 300px;
+
+}
+
+.text{
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+    font-size :32px;
+}
+
+ul.images {
+    list-style-type: none;
+    
+    display: flex;
+    justify-content: center;
+    gap:10px;
+
+}
+
+img{
+    border-radius: 30px;
+}
+
+ul.images li {
+    margin-right: 10px;
+    border-radius: 10px;
+    overflow: hidden;
+    transition: transform 0.3s ease; /* Add a smooth transition effect */
+  }
+  
+  ul.images li:hover {
+    transform: scale(1.1); /* Scale the image up by 10% on hover */
+  }
+
+  .food-name {
+    display: block; /* Display food names as block elements */
+    margin-top: 10px; /* Add space between the image and food name */
+    font-weight: bold; /* Optionally make food names bold */
+    color: #333;
+    font-size: 18px; /* Optionally style the color of the food names */
+  }
+  .image-container {
+    text-align: center; /* Center the content horizontally */
+  }
+  .innerbox3{
+    display: flex;
+    justify-content: space-evenly;
+    
+    padding: 162px;
+    margin: 0px 50px;
+
+  }
+
+  .innerbox4{
+    
+    display: flex;
+    justify-content:center;
+    
+    padding: 60px;
+    
+
+  }
+
+  .innerb4{
+    background-color: #3882f6;
+    border-radius: 10px;
+
+    display: flex;
+    justify-content: space-around;
+    width: 60%;
+    padding: 60px;
+    margin-top: 40px;
+    
+
+  }
+
+ 
+  /* p{
+text-align: center;
+padding: auto;
+  } */
+
+
+
+
+
+.box4 {
+    background-color:white;
+    width: 70%; /* Adjust the width as needed */
+    margin: 0 auto; /* Center the box horizontally */
+    height: 350px;
+  }
+
+  .text4{
+    color: white;
+  }
+
+  button{
+    background-color:#3882f6 ;
+    border: 1px solid whitesmoke;
+    border-radius: 3px;
+    padding: 5px;
+    width: 100px;
+    color: white;
+  }
+  
+
+  .box5 {
+    background-color:#1f2937;
+    width: 70%; /* Adjust the width as needed */
+    margin: 0 auto; /* Center the box horizontally */
+    height: 60px;
+  }
+
+  .innerbox5{
+    display: flex;
+    justify-content: center;
+    color: white;
+    font-size: 20px;
+    padding: 10px;
+  }
+
+  .main{
+    font-size: 42px;
+    font-weight: bold;
+    margin: 10px;
+  }
+
+  .main2{
+    margin-bottom: 10px;
+  }
+
+
+  
+ 
+  
+  
+
+
+
